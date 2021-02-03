@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interproscan-version="5.46-81.0">
+  <protein>
+    <sequence md5="32bed6401c5e042bc091c596d5d9beaa">MFEDKPHAEGAAVVAAAGEALQALCQELNLDEGSAAEALDDFTAIRGNYSLEGEVTHWLACSLYVACRKSIIPTVGKGIMEGNCVSLTRILRSAKLSLIQFFSKMKKWMDMSNLPQEFRERIERLERNFEVSTVIFKKYEPIFLDIFQNPYEEPPKLPRSRKQRRIPCSVKDLFNFCWTLFVYTKGNFRMIGDDLVNSYHLLLCCLDLIFANAIMCPNRQDLLNPSFKGLPSDFHTADFTASEEPPCIIAVLCELHDGLLVEAKGIKEHYFKPYISKLFDRKILKGECLLDLSSFTDNSKAVNKEYEEYVLTVGDFDERIFLGADAEEEIGTPRKFTRDTPLGKLTAQANVEYNLQQHFEKKRSFAPSTPLTGRRYLREKEAVITPVASATQSVSRLQSIVAGLKNAPSDQLINIFESCVRNPVENIMKILKGIGETFCQHYTQSTDEQPGSHIDFAVNRLKLAEILYYKILETVMVQETRRLHGMDMSVLLEQDIFHRSLMACCLEIVLFAYSSPRTFPWIIEVLNLQPFYFYKVIEVVIRSEEGLSRDMVKHLNSIEEQILESLAWSHDSALWEALQVSANKVPTCEEVIFPNNFETGNGGNVQGHLPLMPMSPLMHPRVKEVRTDSGSLRRDMQPLSPISVHERYSSPTAGSAKRRLFGEDPPKEMLMDKIITEGTKLKIAPSSSITAENVSILPGQTLLTMATAPVTGTTGHKVTIPLHGVANDAGEITLIPLSMNTNQESKVKSPVSLTAHSLIGASPKQTNLTKAQEVHSTGINRPKRTGSLALFYRKVYHLASVRLRDLCLKLDVSNELRRKIWTCFEFTLVHCPDLMKDRHLDQLLLCAFYIMAKVTKEERTFQEIMKSYRNQPQANSHVYRSVLLKSIPREVVAYNKNINDDFEMIDCDLEDATKTPDCSSGPVKEERSDLIKFYNTIYVGRVKSFALKYDLANQDHMMDAPPLSPFPHIKQQPGSPRRISQQHSIYISPHKNGSGLTPRSALLYKFNGSPSKSLKDINNMIRQGEQRTKKRVIAIDSDAESPAKRVCQENDDVLLKRLQDVVSERANH</sequence>
+    <xref id="AAA02489.1" name="AAA02489.1 p107 [Homo sapiens]"/>
+    <matches>
+      <hmmer2-match evalue="1.8E-16" score="70.7">
+        <signature ac="SM01369" name="Rb_C_2">
+          <entry ac="IPR015030" desc="Retinoblastoma-associated protein, C-terminal" name="RB_C" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-69231" name="Cyclin D associated events in G1"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM01369</model-ac>
+        <locations>
+          <hmmer2-location score="70.7" evalue="1.8E-16" hmm-start="1" hmm-end="157" hmm-length="157" hmm-bounds="COMPLETE" start="952" end="1068">
+            <location-fragments>
+              <hmmer2-location-fragment start="952" end="1068" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="8.0E-81" score="284.5">
+        <signature ac="SM01367" name="DUF3452_2">
+          <entry ac="IPR024599" desc="Retinoblastoma-associated protein, N-terminal" name="RB_N" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-69231" name="Cyclin D associated events in G1"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM01367</model-ac>
+        <locations>
+          <hmmer2-location score="284.5" evalue="8.0E-81" hmm-start="1" hmm-end="175" hmm-length="175" hmm-bounds="COMPLETE" start="70" end="212">
+            <location-fragments>
+              <hmmer2-location-fragment start="70" end="212" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="8.1E-6" score="35.3">
+        <signature ac="SM00385" name="cyclin_7">
+          <entry ac="IPR013763" desc="Cyclin-like" name="Cyclin-like" type="DOMAIN"/>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM00385</model-ac>
+        <locations>
+          <hmmer2-location score="35.3" evalue="8.1E-6" hmm-start="1" hmm-end="90" hmm-length="90" hmm-bounds="COMPLETE" start="801" end="910">
+            <location-fragments>
+              <hmmer2-location-fragment start="801" end="910" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer2-match evalue="7.9E-120" score="414.1">
+        <signature ac="SM01368" name="RB_A_2">
+          <entry ac="IPR002720" desc="Retinoblastoma-associated protein, A-box" name="RB_A" type="DOMAIN">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0051726" name="regulation of cell cycle"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005634" name="nucleus"/>
+            <pathway-xref db="Reactome" id="R-HSA-69231" name="Cyclin D associated events in G1"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM01368</model-ac>
+        <locations>
+          <hmmer2-location score="414.1" evalue="7.9E-120" hmm-start="1" hmm-end="216" hmm-length="216" hmm-bounds="COMPLETE" start="385" end="578">
+            <location-fragments>
+              <hmmer2-location-fragment start="385" end="578" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="3.7E-42" score="146.3">
+        <signature ac="G3DSA:1.10.472.140" name="">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4eljA01</model-ac>
+        <locations>
+          <hmmer3-location env-end="328" env-start="17" post-processed="true" score="134.1" evalue="1.9E-38" hmm-start="9" hmm-end="268" hmm-length="273" hmm-bounds="COMPLETE" start="17" end="328">
+            <location-fragments>
+              <hmmer3-location-fragment start="17" end="328" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="5.9E-78" score="261.3">
+        <signature ac="PF01858" desc="Retinoblastoma-associated protein A domain" name="RB_A">
+          <entry ac="IPR002720" desc="Retinoblastoma-associated protein, A-box" name="RB_A" type="DOMAIN">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0051726" name="regulation of cell cycle"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005634" name="nucleus"/>
+            <pathway-xref db="Reactome" id="R-HSA-69231" name="Cyclin D associated events in G1"/>
+          </entry>
+          <signature-library-release library="PFAM" version="33.1"/>
+        </signature>
+        <model-ac>PF01858</model-ac>
+        <locations>
+          <hmmer3-location env-end="578" env-start="385" post-processed="true" score="258.3" evalue="4.7E-77" hmm-start="1" hmm-end="197" hmm-length="197" hmm-bounds="COMPLETE" start="385" end="578">
+            <location-fragments>
+              <hmmer3-location-fragment start="385" end="578" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="4.0E-53" score="178.9">
+        <signature ac="PF01857" desc="Retinoblastoma-associated protein B domain" name="RB_B">
+          <entry ac="IPR002719" desc="Retinoblastoma-associated protein, B-box" name="RB_B" type="DOMAIN">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0051726" name="regulation of cell cycle"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005634" name="nucleus"/>
+            <pathway-xref db="Reactome" id="R-HSA-69231" name="Cyclin D associated events in G1"/>
+          </entry>
+          <signature-library-release library="PFAM" version="33.1"/>
+        </signature>
+        <model-ac>PF01857</model-ac>
+        <locations>
+          <hmmer3-location env-end="943" env-start="787" post-processed="true" score="174.1" evalue="1.3E-51" hmm-start="1" hmm-end="130" hmm-length="130" hmm-bounds="COMPLETE" start="787" end="943">
+            <location-fragments>
+              <hmmer3-location-fragment start="787" end="943" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.6E-81" score="274.4">
+        <signature ac="G3DSA:1.10.472.10" name="">
+          <signature-library-release library="GENE3D" version="4.2.0"/>
+        </signature>
+        <model-ac>4yozA01</model-ac>
+        <locations>
+          <hmmer3-location env-end="568" env-start="388" post-processed="true" score="270.6" evalue="2.5E-80" hmm-start="3" hmm-end="181" hmm-length="181" hmm-bounds="COMPLETE" start="388" end="568">
+            <location-fragments>
+              <hmmer3-location-fragment start="388" end="568" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.4E-49" score="167.2">
+        <signature ac="PF11934" desc="Domain of unknown function (DUF3452)" name="DUF3452">
+          <entry ac="IPR024599" desc="Retinoblastoma-associated protein, N-terminal" name="RB_N" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-69231" name="Cyclin D associated events in G1"/>
+          </entry>
+          <signature-library-release library="PFAM" version="33.1"/>
+        </signature>
+        <model-ac>PF11934</model-ac>
+        <locations>
+          <hmmer3-location env-end="212" env-start="77" post-processed="true" score="167.2" evalue="1.4E-49" hmm-start="4" hmm-end="138" hmm-length="138" hmm-bounds="C_TERMINAL_COMPLETE" start="80" end="212">
+            <location-fragments>
+              <hmmer3-location-fragment start="80" end="212" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <panther-match evalue="0.0" familyName="RETINOBLASTOMA-LIKE PROTEIN 1" score="2152.2">
+        <signature ac="PTHR13742:SF20" name="RETINOBLASTOMA-LIKE PROTEIN 1">
+          <entry ac="IPR028310" desc="Retinoblastoma-like protein 1" name="RBL1" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0051302" name="regulation of cell division"/>
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005667" name="transcription regulator complex"/>
+            <pathway-xref db="Reactome" id="R-HSA-69205" name="G1/S-Specific Transcription"/>
+            <pathway-xref db="Reactome" id="R-HSA-2173796" name="SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription"/>
+            <pathway-xref db="Reactome" id="R-HSA-1362300" name="Transcription of E2F targets under negative control by p107 (RBL1) and p130 (RBL2) in complex with HDAC1"/>
+            <pathway-xref db="Reactome" id="R-HSA-1538133" name="G0 and Early G1"/>
+            <pathway-xref db="Reactome" id="R-HSA-69231" name="Cyclin D associated events in G1"/>
+            <pathway-xref db="Reactome" id="R-HSA-6804114" name="TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest"/>
+            <pathway-xref db="Reactome" id="R-HSA-1362277" name="Transcription of E2F targets under negative control by DREAM complex"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR13742:SF20</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="1068" hmm-start="1" hmm-end="1068" hmm-length="1068" hmm-bounds="COMPLETE" start="1" end="1068">
+            <location-fragments>
+              <panther-location-fragment start="1" end="1068" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="RETINOBLASTOMA-LIKE PROTEIN 1" score="2152.2">
+        <signature ac="PTHR13742" name="RETINOBLASTOMA-ASSOCIATED PROTEIN  RB -RELATED">
+          <entry ac="IPR028309" desc="Retinoblastoma protein family" name="RB_fam" type="FAMILY">
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0051726" name="regulation of cell cycle"/>
+            <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006357" name="regulation of transcription by RNA polymerase II"/>
+            <pathway-xref db="Reactome" id="R-HSA-69231" name="Cyclin D associated events in G1"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="14.1"/>
+        </signature>
+        <model-ac>PTHR13742</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="1068" hmm-start="1" hmm-end="1068" hmm-length="1068" hmm-bounds="COMPLETE" start="1" end="1068">
+            <location-fragments>
+              <panther-location-fragment start="1" end="1068" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <rpsblast-match>
+        <signature ac="cd00043" desc="CYCLIN" name="CYCLIN">
+          <entry ac="IPR013763" desc="Cyclin-like" name="Cyclin-like" type="DOMAIN"/>
+          <signature-library-release library="CDD" version="3.17"/>
+        </signature>
+        <model-ac>cd00043</model-ac>
+        <locations>
+          <rpsblast-location evalue="2.5916E-5" score="41.8405" start="798" end="871">
+            <location-fragments>
+              <rpsblast-location-fragment start="798" end="871" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites/>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="2.13E-46">
+        <signature ac="SSF47954" name="Cyclin-like">
+          <entry ac="IPR036915" desc="Cyclin-like superfamily" name="Cyclin-like_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038276</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="141" start="787" end="968">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="787" end="884" dc-status="C_TERMINAL_DISC"/>
+              <superfamilyhmmer3-location-fragment start="923" end="968" dc-status="N_TERMINAL_DISC"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+      <superfamilyhmmer3-match evalue="4.48E-69">
+        <signature ac="SSF47954" name="Cyclin-like">
+          <entry ac="IPR036915" desc="Cyclin-like superfamily" name="Cyclin-like_sf" type="HOMOLOGOUS_SUPERFAMILY"/>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0038275</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="198" start="393" end="580">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="393" end="580" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>
